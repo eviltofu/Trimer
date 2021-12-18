@@ -9,3 +9,7 @@ xcode_workspace: Trimer.xcworkspace
 xcode_scheme: TrimerTests
 xcode_sdk: 
 - iphonesimulator15.2
+
+script:
+  xcodebuild -showsdks
+  
