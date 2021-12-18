@@ -4,4 +4,4 @@ language: swift
 
 xcode_project: Trimer.xcodeproj # path to your xcodeproj folder
 xcode_scheme: TrimerTests
-xcode_destination: platform=iOS Simulator,OS=15.2,name=iPhoneX
+xcode_destination: platform=iOS Simulator,OS=15.2,name=iPhone X
