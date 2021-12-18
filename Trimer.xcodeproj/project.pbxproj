@@ -14,6 +14,9 @@
 		02351DDE276D68E20096D048 /* TrimerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02351DDD276D68E20096D048 /* TrimerTests.swift */; };
 		02351DE8276D68E20096D048 /* TrimerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02351DE7276D68E20096D048 /* TrimerUITests.swift */; };
 		02351DEA276D68E20096D048 /* TrimerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02351DE9276D68E20096D048 /* TrimerUITestsLaunchTests.swift */; };
+		02FD84F8E9CC78E104809B4B /* Pods_TrimerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AADEF71CC3D665DF7DBA5DBF /* Pods_TrimerTests.framework */; };
+		13DD02D3E646511FFB462DAA /* Pods_Trimer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D77BCAA2C1A7925AD84B505A /* Pods_Trimer.framework */; };
+		42E421B27970EB63EEDB54C8 /* Pods_Trimer_TrimerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80D53F1ACDCCA81E9F3722A5 /* Pods_Trimer_TrimerUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +47,15 @@
 		02351DE3276D68E20096D048 /* TrimerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrimerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		02351DE7276D68E20096D048 /* TrimerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrimerUITests.swift; sourceTree = "<group>"; };
 		02351DE9276D68E20096D048 /* TrimerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrimerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0D8E69B8DB04B82D13B059C8 /* Pods-Trimer-TrimerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Trimer-TrimerUITests.debug.xcconfig"; path = "Target Support Files/Pods-Trimer-TrimerUITests/Pods-Trimer-TrimerUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		20B99C56CF3C9BE08E86342A /* Pods-Trimer-TrimerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Trimer-TrimerUITests.release.xcconfig"; path = "Target Support Files/Pods-Trimer-TrimerUITests/Pods-Trimer-TrimerUITests.release.xcconfig"; sourceTree = "<group>"; };
+		25901BDCC3B8FBCFC7AF538B /* Pods-TrimerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrimerTests.debug.xcconfig"; path = "Target Support Files/Pods-TrimerTests/Pods-TrimerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		2C7F6DB319A7FE9A09EB9FE1 /* Pods-Trimer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Trimer.release.xcconfig"; path = "Target Support Files/Pods-Trimer/Pods-Trimer.release.xcconfig"; sourceTree = "<group>"; };
+		80D53F1ACDCCA81E9F3722A5 /* Pods_Trimer_TrimerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Trimer_TrimerUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7E37A12C657FC65824311FE /* Pods-TrimerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrimerTests.release.xcconfig"; path = "Target Support Files/Pods-TrimerTests/Pods-TrimerTests.release.xcconfig"; sourceTree = "<group>"; };
+		AADEF71CC3D665DF7DBA5DBF /* Pods_TrimerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TrimerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D77BCAA2C1A7925AD84B505A /* Pods_Trimer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Trimer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F27DF167D08C1C980C853D3A /* Pods-Trimer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Trimer.debug.xcconfig"; path = "Target Support Files/Pods-Trimer/Pods-Trimer.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				13DD02D3E646511FFB462DAA /* Pods_Trimer.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,6 +71,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				02FD84F8E9CC78E104809B4B /* Pods_TrimerTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +79,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				42E421B27970EB63EEDB54C8 /* Pods_Trimer_TrimerUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +93,8 @@
 				02351DDC276D68E20096D048 /* TrimerTests */,
 				02351DE6276D68E20096D048 /* TrimerUITests */,
 				02351DCA276D68E00096D048 /* Products */,
+				091CAE5A621AFE6DA6D5AF49 /* Pods */,
+				544E8B9E24C916A9C11D90DC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -127,6 +144,30 @@
 			path = TrimerUITests;
 			sourceTree = "<group>";
 		};
+		091CAE5A621AFE6DA6D5AF49 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F27DF167D08C1C980C853D3A /* Pods-Trimer.debug.xcconfig */,
+				2C7F6DB319A7FE9A09EB9FE1 /* Pods-Trimer.release.xcconfig */,
+				0D8E69B8DB04B82D13B059C8 /* Pods-Trimer-TrimerUITests.debug.xcconfig */,
+				20B99C56CF3C9BE08E86342A /* Pods-Trimer-TrimerUITests.release.xcconfig */,
+				25901BDCC3B8FBCFC7AF538B /* Pods-TrimerTests.debug.xcconfig */,
+				A7E37A12C657FC65824311FE /* Pods-TrimerTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		544E8B9E24C916A9C11D90DC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D77BCAA2C1A7925AD84B505A /* Pods_Trimer.framework */,
+				80D53F1ACDCCA81E9F3722A5 /* Pods_Trimer_TrimerUITests.framework */,
+				AADEF71CC3D665DF7DBA5DBF /* Pods_TrimerTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,9 +175,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 02351DED276D68E20096D048 /* Build configuration list for PBXNativeTarget "Trimer" */;
 			buildPhases = (
+				A07F0302211D99D0D6AB3826 /* [CP] Check Pods Manifest.lock */,
 				02351DC5276D68E00096D048 /* Sources */,
 				02351DC6276D68E00096D048 /* Frameworks */,
 				02351DC7276D68E00096D048 /* Resources */,
+				8F7B38FB43EECEFF19260ADD /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -151,6 +194,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 02351DF0276D68E20096D048 /* Build configuration list for PBXNativeTarget "TrimerTests" */;
 			buildPhases = (
+				37641C53CAF448073BED0118 /* [CP] Check Pods Manifest.lock */,
 				02351DD5276D68E20096D048 /* Sources */,
 				02351DD6276D68E20096D048 /* Frameworks */,
 				02351DD7276D68E20096D048 /* Resources */,
@@ -169,9 +213,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 02351DF3276D68E20096D048 /* Build configuration list for PBXNativeTarget "TrimerUITests" */;
 			buildPhases = (
+				D3222652C792F9F98ECFF425 /* [CP] Check Pods Manifest.lock */,
 				02351DDF276D68E20096D048 /* Sources */,
 				02351DE0276D68E20096D048 /* Frameworks */,
 				02351DE1276D68E20096D048 /* Resources */,
+				70FBAE192D64A2075BE20DBC /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -251,6 +297,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		37641C53CAF448073BED0118 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TrimerTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		70FBAE192D64A2075BE20DBC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Trimer-TrimerUITests/Pods-Trimer-TrimerUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Trimer-TrimerUITests/Pods-Trimer-TrimerUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Trimer-TrimerUITests/Pods-Trimer-TrimerUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8F7B38FB43EECEFF19260ADD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Trimer/Pods-Trimer-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Trimer/Pods-Trimer-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Trimer/Pods-Trimer-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A07F0302211D99D0D6AB3826 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Trimer-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D3222652C792F9F98ECFF425 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Trimer-TrimerUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		02351DC5276D68E00096D048 /* Sources */ = {
@@ -413,6 +562,7 @@
 		};
 		02351DEE276D68E20096D048 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F27DF167D08C1C980C853D3A /* Pods-Trimer.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -443,6 +593,7 @@
 		};
 		02351DEF276D68E20096D048 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C7F6DB319A7FE9A09EB9FE1 /* Pods-Trimer.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -473,6 +624,7 @@
 		};
 		02351DF1276D68E20096D048 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 25901BDCC3B8FBCFC7AF538B /* Pods-TrimerTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -493,6 +645,7 @@
 		};
 		02351DF2276D68E20096D048 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A7E37A12C657FC65824311FE /* Pods-TrimerTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -513,6 +666,7 @@
 		};
 		02351DF4276D68E20096D048 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D8E69B8DB04B82D13B059C8 /* Pods-Trimer-TrimerUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -531,6 +685,7 @@
 		};
 		02351DF5276D68E20096D048 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 20B99C56CF3C9BE08E86342A /* Pods-Trimer-TrimerUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
