@@ -8,5 +8,4 @@ cache:
 xcode_workspace: Trimer.xcworkspace
 xcode_scheme: TrimerTests
 xcode_sdk: 
-  iphonesimulator15.0
-  iphonesimulator14.0
+- iphonesimulator15.0
