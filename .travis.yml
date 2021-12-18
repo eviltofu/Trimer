@@ -1,5 +1,9 @@
 language: swift
 osx_image: xcode13.1
+
+cache:
+  bundler: true
+
 xcode_project: Trimer.xcodeproj # path to your xcodeproj folder
 xcode_scheme: TrimerTests
 xcode_destination: platform=iOS Simulator,OS=15.0,name=iPhone 12
