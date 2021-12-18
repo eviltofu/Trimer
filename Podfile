@@ -6,7 +6,7 @@ target 'Trimer' do
   use_frameworks!
 
   # Pods for Trimer
-  pod 'SwiftWebSocket', '~> 2.7'
+  pod 'AFNetworking', '~> 4.0'
   
   target 'TrimerTests' do
     inherit! :search_paths
