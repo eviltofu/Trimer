@@ -1,3 +1,4 @@
+---
 language: swift
 osx_image: xcode13.1
 
@@ -7,5 +8,7 @@ cache:
 
 xcode_workspace: Trimer.xcworkspace
 xcode_scheme: TrimerTests
-xcode_sdk: iphonesimulator15.0
-
+xcode_destination: 
+  - platform=iOS Simulator,OS=15.0,name=iPhone 12
+  - platform=iOS Simulator,OS=14.0,name=iPhone 12
+...
