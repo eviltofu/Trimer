@@ -2,6 +2,6 @@ os: osx
 osx_image: xcode13.1
 language: swift
 
-xcode_project: Trimer.xcodeproj # path to your xcodeproj folder
-xcode_scheme: TrimerTests
-xcode_destination: platform=iOS Simulator,OS=15.0,name=iPhone 12
+script:
+  - set -o pipefail
+  - xcodebuild -project Trimer.xcodeproj -scheme TrimerTests -sdk iphonesimulator -destination "platform=iOS Simulator,name=iPhone 12,OS=15.0" test | xcpretty
