@@ -1,0 +1,590 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		02351DCD276D68E00096D048 /* TrimerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02351DCC276D68E00096D048 /* TrimerApp.swift */; };
+		02351DCF276D68E00096D048 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02351DCE276D68E00096D048 /* ContentView.swift */; };
+		02351DD1276D68E20096D048 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02351DD0276D68E20096D048 /* Assets.xcassets */; };
+		02351DD4276D68E20096D048 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02351DD3276D68E20096D048 /* Preview Assets.xcassets */; };
+		02351DDE276D68E20096D048 /* TrimerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02351DDD276D68E20096D048 /* TrimerTests.swift */; };
+		02351DE8276D68E20096D048 /* TrimerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02351DE7276D68E20096D048 /* TrimerUITests.swift */; };
+		02351DEA276D68E20096D048 /* TrimerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02351DE9276D68E20096D048 /* TrimerUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		02351DDA276D68E20096D048 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 02351DC1276D68E00096D048 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 02351DC8276D68E00096D048;
+			remoteInfo = Trimer;
+		};
+		02351DE4276D68E20096D048 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 02351DC1276D68E00096D048 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 02351DC8276D68E00096D048;
+			remoteInfo = Trimer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02351DC9276D68E00096D048 /* Trimer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Trimer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		02351DCC276D68E00096D048 /* TrimerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrimerApp.swift; sourceTree = "<group>"; };
+		02351DCE276D68E00096D048 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		02351DD0276D68E20096D048 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		02351DD3276D68E20096D048 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		02351DD9276D68E20096D048 /* TrimerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrimerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		02351DDD276D68E20096D048 /* TrimerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrimerTests.swift; sourceTree = "<group>"; };
+		02351DE3276D68E20096D048 /* TrimerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrimerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		02351DE7276D68E20096D048 /* TrimerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrimerUITests.swift; sourceTree = "<group>"; };
+		02351DE9276D68E20096D048 /* TrimerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrimerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		02351DC6276D68E00096D048 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02351DD6276D68E20096D048 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02351DE0276D68E20096D048 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		02351DC0276D68E00096D048 = {
+			isa = PBXGroup;
+			children = (
+				02351DCB276D68E00096D048 /* Trimer */,
+				02351DDC276D68E20096D048 /* TrimerTests */,
+				02351DE6276D68E20096D048 /* TrimerUITests */,
+				02351DCA276D68E00096D048 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		02351DCA276D68E00096D048 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				02351DC9276D68E00096D048 /* Trimer.app */,
+				02351DD9276D68E20096D048 /* TrimerTests.xctest */,
+				02351DE3276D68E20096D048 /* TrimerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		02351DCB276D68E00096D048 /* Trimer */ = {
+			isa = PBXGroup;
+			children = (
+				02351DCC276D68E00096D048 /* TrimerApp.swift */,
+				02351DCE276D68E00096D048 /* ContentView.swift */,
+				02351DD0276D68E20096D048 /* Assets.xcassets */,
+				02351DD2276D68E20096D048 /* Preview Content */,
+			);
+			path = Trimer;
+			sourceTree = "<group>";
+		};
+		02351DD2276D68E20096D048 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				02351DD3276D68E20096D048 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		02351DDC276D68E20096D048 /* TrimerTests */ = {
+			isa = PBXGroup;
+			children = (
+				02351DDD276D68E20096D048 /* TrimerTests.swift */,
+			);
+			path = TrimerTests;
+			sourceTree = "<group>";
+		};
+		02351DE6276D68E20096D048 /* TrimerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				02351DE7276D68E20096D048 /* TrimerUITests.swift */,
+				02351DE9276D68E20096D048 /* TrimerUITestsLaunchTests.swift */,
+			);
+			path = TrimerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		02351DC8276D68E00096D048 /* Trimer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 02351DED276D68E20096D048 /* Build configuration list for PBXNativeTarget "Trimer" */;
+			buildPhases = (
+				02351DC5276D68E00096D048 /* Sources */,
+				02351DC6276D68E00096D048 /* Frameworks */,
+				02351DC7276D68E00096D048 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Trimer;
+			productName = Trimer;
+			productReference = 02351DC9276D68E00096D048 /* Trimer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		02351DD8276D68E20096D048 /* TrimerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 02351DF0276D68E20096D048 /* Build configuration list for PBXNativeTarget "TrimerTests" */;
+			buildPhases = (
+				02351DD5276D68E20096D048 /* Sources */,
+				02351DD6276D68E20096D048 /* Frameworks */,
+				02351DD7276D68E20096D048 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				02351DDB276D68E20096D048 /* PBXTargetDependency */,
+			);
+			name = TrimerTests;
+			productName = TrimerTests;
+			productReference = 02351DD9276D68E20096D048 /* TrimerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		02351DE2276D68E20096D048 /* TrimerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 02351DF3276D68E20096D048 /* Build configuration list for PBXNativeTarget "TrimerUITests" */;
+			buildPhases = (
+				02351DDF276D68E20096D048 /* Sources */,
+				02351DE0276D68E20096D048 /* Frameworks */,
+				02351DE1276D68E20096D048 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				02351DE5276D68E20096D048 /* PBXTargetDependency */,
+			);
+			name = TrimerUITests;
+			productName = TrimerUITests;
+			productReference = 02351DE3276D68E20096D048 /* TrimerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		02351DC1276D68E00096D048 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					02351DC8276D68E00096D048 = {
+						CreatedOnToolsVersion = 13.2;
+					};
+					02351DD8276D68E20096D048 = {
+						CreatedOnToolsVersion = 13.2;
+						TestTargetID = 02351DC8276D68E00096D048;
+					};
+					02351DE2276D68E20096D048 = {
+						CreatedOnToolsVersion = 13.2;
+						TestTargetID = 02351DC8276D68E00096D048;
+					};
+				};
+			};
+			buildConfigurationList = 02351DC4276D68E00096D048 /* Build configuration list for PBXProject "Trimer" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 02351DC0276D68E00096D048;
+			productRefGroup = 02351DCA276D68E00096D048 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				02351DC8276D68E00096D048 /* Trimer */,
+				02351DD8276D68E20096D048 /* TrimerTests */,
+				02351DE2276D68E20096D048 /* TrimerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		02351DC7276D68E00096D048 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02351DD4276D68E20096D048 /* Preview Assets.xcassets in Resources */,
+				02351DD1276D68E20096D048 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02351DD7276D68E20096D048 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02351DE1276D68E20096D048 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		02351DC5276D68E00096D048 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02351DCF276D68E00096D048 /* ContentView.swift in Sources */,
+				02351DCD276D68E00096D048 /* TrimerApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02351DD5276D68E20096D048 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02351DDE276D68E20096D048 /* TrimerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02351DDF276D68E20096D048 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02351DE8276D68E20096D048 /* TrimerUITests.swift in Sources */,
+				02351DEA276D68E20096D048 /* TrimerUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		02351DDB276D68E20096D048 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 02351DC8276D68E00096D048 /* Trimer */;
+			targetProxy = 02351DDA276D68E20096D048 /* PBXContainerItemProxy */;
+		};
+		02351DE5276D68E20096D048 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 02351DC8276D68E00096D048 /* Trimer */;
+			targetProxy = 02351DE4276D68E20096D048 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		02351DEB276D68E20096D048 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		02351DEC276D68E20096D048 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		02351DEE276D68E20096D048 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Trimer/Preview Content\"";
+				DEVELOPMENT_TEAM = FML74CZEMW;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.westerlygoose.Trimer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		02351DEF276D68E20096D048 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Trimer/Preview Content\"";
+				DEVELOPMENT_TEAM = FML74CZEMW;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.westerlygoose.Trimer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		02351DF1276D68E20096D048 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FML74CZEMW;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.westerlygoose.TrimerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Trimer.app/Trimer";
+			};
+			name = Debug;
+		};
+		02351DF2276D68E20096D048 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FML74CZEMW;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.westerlygoose.TrimerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Trimer.app/Trimer";
+			};
+			name = Release;
+		};
+		02351DF4276D68E20096D048 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FML74CZEMW;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.westerlygoose.TrimerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Trimer;
+			};
+			name = Debug;
+		};
+		02351DF5276D68E20096D048 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FML74CZEMW;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.westerlygoose.TrimerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Trimer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		02351DC4276D68E00096D048 /* Build configuration list for PBXProject "Trimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02351DEB276D68E20096D048 /* Debug */,
+				02351DEC276D68E20096D048 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		02351DED276D68E20096D048 /* Build configuration list for PBXNativeTarget "Trimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02351DEE276D68E20096D048 /* Debug */,
+				02351DEF276D68E20096D048 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		02351DF0276D68E20096D048 /* Build configuration list for PBXNativeTarget "TrimerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02351DF1276D68E20096D048 /* Debug */,
+				02351DF2276D68E20096D048 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		02351DF3276D68E20096D048 /* Build configuration list for PBXNativeTarget "TrimerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02351DF4276D68E20096D048 /* Debug */,
+				02351DF5276D68E20096D048 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 02351DC1276D68E00096D048 /* Project object */;
+}
